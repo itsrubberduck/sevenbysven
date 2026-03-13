@@ -507,6 +507,12 @@
           </span>
         </div>
 
+        <div class="reveal-text mt-4">
+          <span class="font-body text-sm md:text-base font-extralight tracking-[0.12em] text-anthracite-200 block max-w-md" style="animation-delay: 1.25s">
+            Einzigartige Mode. Für einzigartige Menschen.
+          </span>
+        </div>
+
         <div class="reveal-text mt-8 md:mt-10">
           <span style="animation-delay: 1.4s" class="inline-block">
             <a href="#contact" class="magnetic-btn inline-block border border-white/30 px-8 md:px-10 py-3 md:py-4 text-xs tracking-[0.3em] uppercase font-light text-white hover:text-anthracite-950">
@@ -830,7 +836,7 @@
               </div>
               <div>
                 <span class="text-[10px] tracking-[0.2em] uppercase text-anthracite-500 block">E-Mail</span>
-                <a href="mailto:kontakt@sevenbysven.de" class="text-sm font-light text-white hover:text-anthracite-300 transition-colors">kontakt@sevenbysven.de</a>
+                <a href="mailto:Mueller.sven_1996@web.de" class="text-sm font-light text-white hover:text-anthracite-300 transition-colors">Mueller.sven_1996@web.de</a>
               </div>
             </div>
 
@@ -840,7 +846,7 @@
               </div>
               <div>
                 <span class="text-[10px] tracking-[0.2em] uppercase text-anthracite-500 block">Telefon</span>
-                <a href="tel:+4917612345678" class="text-sm font-light text-white hover:text-anthracite-300 transition-colors">+49 176 1234 5678</a>
+                <a href="tel:+4917662585895" class="text-sm font-light text-white hover:text-anthracite-300 transition-colors">+49 176 6258 5895</a>
               </div>
             </div>
 
@@ -866,65 +872,26 @@
           </div>
         </div>
 
-        <!-- Right: form -->
-        <div data-aos="fade-left" data-aos-duration="1000">
-          <form class="space-y-6" id="contactForm" onsubmit="return handleSubmit(event)">
-            <div class="float-label">
-              <label class="text-[10px] tracking-[0.2em] uppercase text-anthracite-500 block mb-2" for="name">Name</label>
-              <input type="text" id="name" name="name" required
-                class="w-full px-4 py-3 text-sm font-light text-white"
-                placeholder="Ihr Name"
-              >
-            </div>
+        <!-- Right: CTA -->
+        <div data-aos="fade-left" data-aos-duration="1000" class="flex flex-col items-start justify-center">
+          <div class="border border-white/8 p-8 md:p-12 w-full">
+            <span class="font-display text-2xl md:text-3xl font-light text-white block mb-4">Schreiben Sie mir</span>
+            <p class="text-anthracite-400 font-light text-sm leading-relaxed mb-8 max-w-md">
+              Sie haben eine Idee, einen besonderen Anlass oder wünschen sich ein individuelles Kleidungsstück? Ich freue mich auf Ihre Nachricht.
+            </p>
 
-            <div class="float-label">
-              <label class="text-[10px] tracking-[0.2em] uppercase text-anthracite-500 block mb-2" for="email">E-Mail</label>
-              <input type="email" id="email" name="email" required
-                class="w-full px-4 py-3 text-sm font-light text-white"
-                placeholder="Ihre E-Mail-Adresse"
-              >
-            </div>
+            <a href="mailto:Mueller.sven_1996@web.de?subject=Anfrage%20über%20sevenbysven.de" class="magnetic-btn inline-block border border-white/30 px-10 py-4 text-xs tracking-[0.3em] uppercase font-light text-white hover:text-anthracite-950 transition-colors mb-8">
+              <span>E-Mail schreiben</span>
+            </a>
 
-            <div class="float-label">
-              <label class="text-[10px] tracking-[0.2em] uppercase text-anthracite-500 block mb-2" for="subject">Betreff</label>
-              <select id="subject" name="subject"
-                class="w-full px-4 py-3 text-sm font-light text-white bg-transparent border border-white/12 focus:border-white/50 focus:outline-none appearance-none"
-                style="background-image: url('data:image/svg+xml;utf8,<svg fill=\'white\' viewBox=\'0 0 20 20\' xmlns=\'http://www.w3.org/2000/svg\'><path fill-rule=\'evenodd\' d=\'M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\' clip-rule=\'evenodd\'/></svg>'); background-repeat: no-repeat; background-position: right 12px center; background-size: 16px;"
-              >
-                <option value="" style="background:#1a1a1a">Bitte wählen</option>
-                <option value="mass" style="background:#1a1a1a">Maßgeschneiderte Kleidung</option>
-                <option value="design" style="background:#1a1a1a">Individueller Modeentwurf</option>
-                <option value="event" style="background:#1a1a1a">Event-Design</option>
-                <option value="other" style="background:#1a1a1a">Sonstiges</option>
-              </select>
-            </div>
+            <div class="split-line mb-8"></div>
 
-            <div class="float-label">
-              <label class="text-[10px] tracking-[0.2em] uppercase text-anthracite-500 block mb-2" for="message">Nachricht</label>
-              <textarea id="message" name="message" rows="5" required
-                class="w-full px-4 py-3 text-sm font-light text-white resize-none"
-                placeholder="Erzählen Sie mir von Ihrem Projekt..."
-              ></textarea>
-            </div>
-
-            <!-- DSGVO Consent -->
-            <div class="flex items-start gap-3">
-              <input type="checkbox" id="privacy" name="privacy" required class="mt-1 accent-white">
-              <label for="privacy" class="text-xs text-anthracite-400 font-light leading-relaxed">
-                Ich stimme der Verarbeitung meiner Daten gemäß der
-                <a href="#datenschutz" class="underline text-anthracite-300 hover:text-white transition-colors">Datenschutzerklärung</a>
-                zu. Meine Daten werden ausschließlich zur Bearbeitung meiner Anfrage verwendet.
-              </label>
-            </div>
-
-            <button type="submit" class="magnetic-btn w-full border border-white/30 px-10 py-4 text-xs tracking-[0.3em] uppercase font-light text-white hover:text-anthracite-950 transition-colors">
-              <span>Nachricht senden</span>
-            </button>
-          </form>
-
-          <div id="formSuccess" class="hidden text-center py-12">
-            <span class="font-display text-2xl font-light text-white block mb-2">Vielen Dank!</span>
-            <p class="text-anthracite-400 text-sm font-light">Ihre Nachricht wurde gesendet. Ich melde mich zeitnah bei Ihnen.</p>
+            <p class="text-anthracite-500 text-xs font-light leading-relaxed">
+              Oder erreichen Sie mich direkt per Telefon unter
+              <a href="tel:+4917662585895" class="text-anthracite-300 hover:text-white transition-colors">+49 176 6258 5895</a>
+              oder auf
+              <a href="https://www.instagram.com/_seven_by_sven_/" target="_blank" rel="noopener noreferrer" class="text-anthracite-300 hover:text-white transition-colors">Instagram</a>.
+            </p>
           </div>
         </div>
 
@@ -1096,14 +1063,6 @@
         document.body.style.overflow = '';
       });
     });
-
-    // === FORM SUBMIT ===
-    function handleSubmit(e) {
-      e.preventDefault();
-      document.getElementById('contactForm').classList.add('hidden');
-      document.getElementById('formSuccess').classList.remove('hidden');
-      return false;
-    }
 
     // === COOKIE BANNER ===
     function acceptCookies() {
