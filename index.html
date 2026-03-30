@@ -113,9 +113,9 @@
     .hero-img {
       position: absolute;
       inset: 0;
-      background-image: url('https://images.pexels.com/photos/6626903/pexels-photo-6626903.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=2');
+      background-image: url('images/hero-show.jpg');
       background-size: cover;
-      background-position: center 20%;
+      background-position: center 40%;
       filter: grayscale(70%) contrast(1.1);
       transform: scale(1.1);
       transition: transform 0.3s ease;
@@ -280,24 +280,6 @@
       box-shadow: 0 0 60px rgba(255,255,255,0.03), inset 0 1px 0 rgba(255,255,255,0.06);
     }
 
-    /* === FLOATING LABEL === */
-    .float-label {
-      position: relative;
-    }
-
-    .float-label input,
-    .float-label textarea {
-      background: transparent;
-      border: 1px solid rgba(255,255,255,0.12);
-      transition: border-color 0.3s ease;
-    }
-
-    .float-label input:focus,
-    .float-label textarea:focus {
-      border-color: rgba(255,255,255,0.5);
-      outline: none;
-    }
-
     /* === NAV === */
     .nav-glass {
       backdrop-filter: blur(20px);
@@ -452,7 +434,7 @@
       <a href="#about" class="nav-link text-xs tracking-[0.2em] uppercase font-light text-anthracite-200 hover:text-white transition-colors">Über mich</a>
       <a href="#services" class="nav-link text-xs tracking-[0.2em] uppercase font-light text-anthracite-200 hover:text-white transition-colors">Leistungen</a>
       <a href="#portfolio" class="nav-link text-xs tracking-[0.2em] uppercase font-light text-anthracite-200 hover:text-white transition-colors">Portfolio</a>
-      <a href="#event" class="nav-link text-xs tracking-[0.2em] uppercase font-light text-anthracite-200 hover:text-white transition-colors">Event</a>
+      <a href="#event" class="nav-link text-xs tracking-[0.2em] uppercase font-light text-anthracite-200 hover:text-white transition-colors">Show</a>
       <a href="#contact" class="nav-link text-xs tracking-[0.2em] uppercase font-light text-anthracite-200 hover:text-white transition-colors">Kontakt</a>
     </div>
 
@@ -469,7 +451,7 @@
     <a href="#about" class="mobile-nav-link font-display text-3xl font-light tracking-[0.15em] text-white">Über mich</a>
     <a href="#services" class="mobile-nav-link font-display text-3xl font-light tracking-[0.15em] text-white">Leistungen</a>
     <a href="#portfolio" class="mobile-nav-link font-display text-3xl font-light tracking-[0.15em] text-white">Portfolio</a>
-    <a href="#event" class="mobile-nav-link font-display text-3xl font-light tracking-[0.15em] text-white">Event</a>
+    <a href="#event" class="mobile-nav-link font-display text-3xl font-light tracking-[0.15em] text-white">Show</a>
     <a href="#contact" class="mobile-nav-link font-display text-3xl font-light tracking-[0.15em] text-white">Kontakt</a>
   </div>
 
@@ -562,8 +544,8 @@
         <div class="relative" data-aos="fade-right" data-aos-duration="1200">
           <div class="aspect-[3/4] overflow-hidden">
             <img
-              src="https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Sven Müller bei der Arbeit"
+              src="images/sven-portrait.jpg"
+              alt="Sven Müller bei der First Show"
               class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
               loading="lazy"
             >
@@ -675,7 +657,7 @@
           </h2>
         </div>
         <p class="text-anthracite-400 text-sm font-light max-w-xs mt-6 md:mt-0">
-          Fertige Designs, Skizzen und Kundenprojekte — jedes Stück erzählt eine eigene Geschichte.
+          Impressionen der First Show in der Meyerschen Villa — jedes Stück erzählt eine eigene Geschichte.
         </p>
       </div>
 
@@ -684,75 +666,75 @@
         <!-- Item 1 - tall -->
         <div class="gallery-item aspect-[3/4] md:row-span-2 md:aspect-auto" data-aos="fade-up" data-aos-duration="1000">
           <img
-            src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="Design – Abendkleid"
+            src="images/show-group-staircase.jpg"
+            alt="Models auf der Treppe – First Show"
             class="w-full h-full object-cover grayscale"
             loading="lazy"
           >
           <div class="overlay"></div>
           <div class="overlay-text">
-            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Abendmode</span>
-            <h3 class="font-display text-xl font-light text-white mt-1">Noir Elegance</h3>
+            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">First Show</span>
+            <h3 class="font-display text-xl font-light text-white mt-1">Meyersche Villa</h3>
           </div>
         </div>
 
         <!-- Item 2 -->
         <div class="gallery-item aspect-[4/3]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
           <img
-            src="https://images.pexels.com/photos/4620623/pexels-photo-4620623.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="Design – Stoffe"
+            src="images/show-red-dress-runway.jpg"
+            alt="Rotes Abendkleid – Runway"
             class="w-full h-full object-cover grayscale"
             loading="lazy"
           >
           <div class="overlay"></div>
           <div class="overlay-text">
-            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Material</span>
-            <h3 class="font-display text-xl font-light text-white mt-1">Stoffauswahl</h3>
+            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Abendmode</span>
+            <h3 class="font-display text-xl font-light text-white mt-1">Rouge Passion</h3>
           </div>
         </div>
 
         <!-- Item 3 -->
         <div class="gallery-item aspect-[4/3]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <img
-            src="https://images.pexels.com/photos/6069552/pexels-photo-6069552.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="Design – Skizze"
-            class="w-full h-full object-cover grayscale"
-            loading="lazy"
-          >
-          <div class="overlay"></div>
-          <div class="overlay-text">
-            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Entwurf</span>
-            <h3 class="font-display text-xl font-light text-white mt-1">Skizzen & Entwürfe</h3>
-          </div>
-        </div>
-
-        <!-- Item 4 -->
-        <div class="gallery-item aspect-[4/3]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-          <img
-            src="https://images.pexels.com/photos/6626999/pexels-photo-6626999.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="Design – Maßanfertigung"
-            class="w-full h-full object-cover grayscale"
-            loading="lazy"
-          >
-          <div class="overlay"></div>
-          <div class="overlay-text">
-            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Maßarbeit</span>
-            <h3 class="font-display text-xl font-light text-white mt-1">Im Atelier</h3>
-          </div>
-        </div>
-
-        <!-- Item 5 -->
-        <div class="gallery-item aspect-[4/3]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-          <img
-            src="https://images.pexels.com/photos/6626967/pexels-photo-6626967.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="Design – Runway"
+            src="images/show-black-dress.jpg"
+            alt="Schwarzes Kleid – Runway Walk"
             class="w-full h-full object-cover grayscale"
             loading="lazy"
           >
           <div class="overlay"></div>
           <div class="overlay-text">
             <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Runway</span>
-            <h3 class="font-display text-xl font-light text-white mt-1">On the Runway</h3>
+            <h3 class="font-display text-xl font-light text-white mt-1">Noir Elegance</h3>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item aspect-[4/3]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <img
+            src="images/show-white-dresses.jpg"
+            alt="Weiße Kleider auf der Treppe"
+            class="w-full h-full object-cover grayscale"
+            loading="lazy"
+          >
+          <div class="overlay"></div>
+          <div class="overlay-text">
+            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Brautmode</span>
+            <h3 class="font-display text-xl font-light text-white mt-1">Blanc Pur</h3>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-item aspect-[4/3]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <img
+            src="images/show-solo-balcony.jpg"
+            alt="Model auf dem Balkon – Meyersche Villa"
+            class="w-full h-full object-cover grayscale"
+            loading="lazy"
+          >
+          <div class="overlay"></div>
+          <div class="overlay-text">
+            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-300">Einzelstück</span>
+            <h3 class="font-display text-xl font-light text-white mt-1">En Mouvement</h3>
           </div>
         </div>
       </div>
@@ -760,55 +742,83 @@
     </div>
   </section>
 
-  <!-- ==================== EVENT / FIRST SHOW ==================== -->
+  <!-- ==================== EVENT / FIRST SHOW RECAP ==================== -->
   <section class="py-24 md:py-40 px-6 md:px-16 lg:px-24 relative overflow-hidden" id="event">
     <!-- Background accent -->
     <div class="absolute inset-0 bg-gradient-to-br from-anthracite-900/30 via-transparent to-anthracite-950/50"></div>
 
-    <div class="max-w-5xl mx-auto relative z-10">
-      <div class="event-glow border border-white/8 p-8 md:p-16 text-center" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="max-w-6xl mx-auto relative z-10">
 
-        <span class="text-[10px] tracking-[0.5em] uppercase font-light text-anthracite-400 block mb-6" data-aos="fade-up" data-aos-delay="200">First Show</span>
+      <div class="text-center mb-16" data-aos="fade-up" data-aos-duration="800">
+        <span class="text-[10px] tracking-[0.5em] uppercase font-light text-anthracite-400 block mb-6">First Show — Recap</span>
 
-        <h2 class="font-display text-5xl md:text-7xl lg:text-8xl font-light text-white mb-4" data-aos="fade-up" data-aos-delay="300">
+        <h2 class="font-display text-5xl md:text-7xl lg:text-8xl font-light text-white mb-4">
           Le Femme,<br>
           <span class="italic text-anthracite-300">en Mouvement</span>
         </h2>
 
-        <p class="font-display text-2xl md:text-3xl font-light tracking-wide text-white mb-2" data-aos="fade-up" data-aos-delay="400">
+        <p class="font-display text-2xl md:text-3xl font-light tracking-wide text-white mb-2">
           EN DEVENIR
         </p>
-
-        <div class="split-line my-8 mx-auto max-w-xs" data-aos="fade-up" data-aos-delay="500"></div>
-
-        <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 mb-8" data-aos="fade-up" data-aos-delay="600">
-          <div class="flex items-center gap-3">
-            <svg class="w-4 h-4 text-anthracite-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-            <span class="text-sm tracking-[0.15em] font-light">20. März 2026</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-4 h-4 text-anthracite-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            <span class="text-sm tracking-[0.15em] font-light">19:00 Uhr</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-4 h-4 text-anthracite-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-            <span class="text-sm tracking-[0.15em] font-light">Meyersche Villa, Leipzig</span>
-          </div>
-        </div>
-
-        <p class="text-anthracite-400 font-light text-sm max-w-md mx-auto mb-10" data-aos="fade-up" data-aos-delay="700">
-          A woman in motion. A vision in becoming.<br>
-          Fashion as an evolving state of being.
-        </p>
-
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4" data-aos="fade-up" data-aos-delay="800">
-          <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-500">In Zusammenarbeit mit</span>
-          <span class="text-sm font-display font-light text-anthracite-300">Novi Dance Studio Leipzig</span>
-          <span class="text-anthracite-700 hidden sm:inline">·</span>
-          <span class="text-sm font-display font-light text-anthracite-300">Emy&Li Brautstudio</span>
-        </div>
-
       </div>
+
+      <!-- Show recap image -->
+      <div class="event-glow border border-white/8 overflow-hidden mb-12" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="relative">
+          <img
+            src="images/show-group-banner.jpg"
+            alt="Alle Models der First Show – Seven by Sven"
+            class="w-full h-auto object-cover"
+            loading="lazy"
+          >
+          <div class="absolute inset-0 bg-gradient-to-t from-anthracite-950/60 via-transparent to-transparent"></div>
+        </div>
+
+        <div class="p-8 md:p-12 text-center">
+          <div class="split-line my-6 mx-auto max-w-xs"></div>
+
+          <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 mb-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-anthracite-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              <span class="text-sm tracking-[0.15em] font-light">20. März 2026</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-anthracite-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span class="text-sm tracking-[0.15em] font-light">Meyersche Villa, Leipzig</span>
+            </div>
+          </div>
+
+          <p class="text-anthracite-400 font-light text-sm max-w-md mx-auto mb-8" data-aos="fade-up" data-aos-delay="300">
+            A woman in motion. A vision in becoming.<br>
+            Fashion as an evolving state of being.
+          </p>
+
+          <!-- VIDEO PLACEHOLDER — uncomment when video is ready
+          <div class="max-w-3xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="400">
+            <div class="relative aspect-video bg-anthracite-900/50 border border-white/5 overflow-hidden">
+              <video
+                class="w-full h-full object-cover"
+                controls
+                preload="metadata"
+                poster="images/show-group-banner.jpg"
+              >
+                <source src="images/first-show-video.mp4" type="video/mp4">
+                Ihr Browser unterstützt kein Video-Tag.
+              </video>
+            </div>
+            <p class="text-anthracite-500 text-xs font-light mt-3 tracking-wide text-center">First Show — Le Femme, en Mouvement — Meyersche Villa, Leipzig</p>
+          </div>
+          END VIDEO PLACEHOLDER -->
+
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4" data-aos="fade-up" data-aos-delay="400">
+            <span class="text-[10px] tracking-[0.3em] uppercase text-anthracite-500">In Zusammenarbeit mit</span>
+            <span class="text-sm font-display font-light text-anthracite-300">Novi Dance Studio Leipzig</span>
+            <span class="text-anthracite-700 hidden sm:inline">·</span>
+            <span class="text-sm font-display font-light text-anthracite-300">Emy&Li Brautstudio</span>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
